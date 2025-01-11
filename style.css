@@ -258,8 +258,21 @@ body{
   .news-image {
     width: 40%;
     height: auto;
+    
   }
   
+  .news-img1{
+
+    border-radius: 5%;
+    padding-left: 10px;
+  }
+
+  .news-img2{
+    
+    border-radius: 5%;
+    padding-right: 10px;
+  }
+
   .news-content {
     padding: 20px;
     text-align: left;
@@ -402,7 +415,7 @@ body{
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    /* border-radius: 5px; */
+    
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     flex-grow: 1;
@@ -415,7 +428,7 @@ body{
     background-color: #007f4f;
     color: #fff;
     border: none;
-    /* border-radius: 5px; */
+    
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
