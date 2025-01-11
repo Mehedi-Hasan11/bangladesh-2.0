@@ -297,3 +297,137 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+   /* donate for bangladesh */
+   .donation {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 94%;
+    margin-top: 20px;
+  }
+  .donation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .donation-description {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .donation-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .donation-option {
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+  }
+  .donation-option:hover,
+  .donation-option.selected {
+    background-color: #e8f5e9;
+    border-color: #4caf50;
+    color: #4caf50;
+  }
+  .donation-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .donation-input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  .donation-button {
+    background-color: #007b55;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .donation-button:hover {
+    background-color: #00593f;
+  }
+
+  .newsletter {
+    background-color: #c8e8d4;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 20px;
+    width: 96%;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .newsletter h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .newsletter p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .newsletter-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-grow: 1;
+    max-width: 400px;
+  }
+
+  .newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007f4f;
+    color: #fff;
+    border: none;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .newsletter-form button:hover {
+    background-color: #005f3b;
+  }
+
+  .newsletter .disclaimer {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+  }
